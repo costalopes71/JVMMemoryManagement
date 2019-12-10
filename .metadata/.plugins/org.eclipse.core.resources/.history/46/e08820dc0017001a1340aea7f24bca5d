@@ -1,0 +1,31 @@
+package com.costalopes;
+
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}
+
+final class Person {
+	
+}
+
+class PersonMetaData {
+	
+	private Date date;
+
+	public PersonMetaData() {
+		date = new Date();
+	}
+
+	@Override
+	public String toString() {
+		return "PersonMetaData [date=" + date + "]";
+	}
+	
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.UnsatisfiedLinkError"/>
+<fullyQualifiedTypeName name="com.costalopes.memory_address.Sawtooth"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="sun.misc.Unsafe"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Error"/>
+<fullyQualifiedTypeName name="java.lang.management.ManagementFactory"/>
+<fullyQualifiedTypeName name="com.costalopes.memory_address.util.MXBean"/>
+<fullyQualifiedTypeName name="com.costalopes.MXBean"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.WeakHashMap"/>
+<fullyQualifiedTypeName name="com.costalopes.PersonMetaData"/>
+<fullyQualifiedTypeName name="java.lang.ref.WeakReference"/>
+<fullyQualifiedTypeName name="com.costalopes.PersonCleaner"/>
+<fullyQualifiedTypeName name="com.costalopes.PersonWeakReference"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.lang.ref.PhantomReference"/>
+<fullyQualifiedTypeName name="java.lang.ref.ReferenceQueue"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.costalopes.Person"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.ref.Reference"/>
+<fullyQualifiedTypeName name="com.costalopes.FinalizePerson"/>
+</qualifiedTypeNameHistroy>

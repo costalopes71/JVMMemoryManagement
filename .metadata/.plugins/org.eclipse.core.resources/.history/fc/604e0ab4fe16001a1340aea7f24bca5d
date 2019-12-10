@@ -1,0 +1,23 @@
+package com.costalopes;
+
+import java.lang.ref.WeakReference;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Person person = new Person(); 
+		
+		WeakReference<Person> wr = new WeakReference<Person>(person);
+		
+		Person p1 = wr.get();
+		
+		System.out.println(p1);
+		
+	}
+	
+}
+
+class Person {
+	
+}

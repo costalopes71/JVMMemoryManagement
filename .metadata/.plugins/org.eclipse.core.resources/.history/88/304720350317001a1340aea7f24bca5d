@@ -1,0 +1,38 @@
+package com.costalopes;
+
+import java.lang.ref.ReferenceQueue;
+import java.lang.ref.WeakReference;
+
+public class Main {
+
+	
+	
+}
+
+final class Person {
+	
+	
+}
+
+class PersonCleaner {
+
+	public void clean() {
+		System.out.println("Cleaned");
+	}
+	
+}
+
+class PersonWeakReference extends WeakReference<Person> {
+
+	private PersonCleaner cleaner;
+
+	public PersonWeakReference(Person referent, ReferenceQueue<? super Person> q, PersonCleaner cleaner) {
+		super(referent, q);
+		this.cleaner = cleaner;
+	}
+
+	public void clean() {
+		cleaner.clean();
+	}
+	
+}

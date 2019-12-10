@@ -1,0 +1,29 @@
+package com.costalopes;
+
+import java.lang.ref.PhantomReference;
+import java.lang.ref.ReferenceQueue;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}
+
+class Person {
+	
+}
+
+class FinalizePerson extends PhantomReference<Person> {
+
+	public FinalizePerson(Person person, ReferenceQueue<? super Person> queue) {
+		super(person, queue);
+	}
+
+	public void cleanup() {
+		System.out.println("person is finalizing resources");
+	}
+	
+}

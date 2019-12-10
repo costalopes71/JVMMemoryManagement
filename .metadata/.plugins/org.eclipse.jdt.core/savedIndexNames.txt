@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+/media/16AC8619AC85F391/workspaces/Pluralsight_workspaces/JVMMemoryManagement_workspace/.metadata/.plugins/org.eclipse.jdt.core
+295200573.index
+296696612.index
+4175823256.index
+173637776.index
+3196576071.index
+3067184247.index
+1843735409.index
+2873942757.index

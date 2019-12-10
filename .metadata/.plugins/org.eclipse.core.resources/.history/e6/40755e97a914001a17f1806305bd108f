@@ -1,0 +1,27 @@
+package com.costalopes;
+
+import java.util.Random;
+
+public class AllocationOverwrite {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		int arraySize = 1000000;
+		GCMe[] gcmes = new GCMe[arraySize];
+		
+		int count = 0;
+		Random rnd = new Random();
+		
+		while (true) {
+			
+			gcmes[rnd.nextInt(arraySize)] = new GCMe();
+			if (count % 2000000 == 0) {
+				System.out.print(".");
+			}
+			count++;
+//			Thread.sleep(1);
+		}
+		
+	}
+	
+}

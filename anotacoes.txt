@@ -1,0 +1,5 @@
+===========================
+JSTAT
+==========================
+
+jstat -gc <PID> 1000 10 == pid da aplicacao. Esse cmdo ira mostrar as estatisticas do GC.
